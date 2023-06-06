@@ -1,0 +1,308 @@
+
+/* 背景图片 */
+body {
+  background-image: url('https://i.imgtg.com/2023/06/05/O5OjDG.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  color: #fff;
+}
+
+/* 导航栏样式 */
+.navbar {
+  background-color: #000;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #FFFFFF;
+}
+.navbar-toggler {
+  border: none;
+  outline: none;
+  padding: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* 主页部分样式 */
+#home {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#home h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-shadow: 0 0 20px #fff;
+}
+
+#home p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-shadow: 0 0 20px #fff;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#home .btn-primary {
+  background-color: #FFFFFF;
+  color: #000;
+  border-color: #FFFFFF;
+}
+
+#home .btn-primary:hover {
+  background-color: #000;
+  color: #FFFFFF;
+  border-color: #000;
+}
+
+/* 特色部分样式 */
+#features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#features h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-shadow: 0 0 20px #fff;
+}
+
+#features .fa-4x {
+  marginleft: 25%; }
+
+#features p { font-size: 1.5rem; font-weight: 300; line-height: 1.5; text-shadow: 0 0 20px #fff; background-color: rgba(0,0,0,0.5); padding: 10px; border-radius: 5px; }
+     下载部分样式 
+    #download {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+    #download h2 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      line-height: 1.5;
+      text-shadow: 0 0 20px #fff;
+    }
+
+    #download .card {
+      border: none;
+      border-radius: 1rem;
+      background-color: #1a1a1a;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+      color: #fff;
+    }
+
+    #download .card-title {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.5;
+      text-shadow: 0 0 20px #fff;
+    }
+
+    #download .card-text {
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 1.5;
+      text-shadow: 0 0 20px #fff;
+    }
+
+    #download .btn-primary {
+      background-color: #FFFFFF;
+      color: #000;
+      border-color: #FFFFFF;
+    }
+
+    #download .btn-primary:hover {
+      background-color: #000;
+      color: #FFFFFF;
+      border-color: #000;
+    }
+
+     加载动画样式 
+    .slideInLeft {
+      animation: slideInLeft 1s ease both;
+    }
+
+    .slideInRight {
+      animation: slideInRight 1s ease both;
+    }
+
+    .slideInUp {
+      animation: slideInUp 1s ease both;
+    }
+
+    .slideInDown {
+      animation: slideInDown 1s ease both;
+    }
+
+    @keyframes slideInLeft {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1 }
+
+    @keyframes slideInRight {
+      0% {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideInUp {
+      0% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideInDown {
+      0% {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+     版权信息样式 
+    #footer {
+      background-color: #000;
+      color: #FFFFFF; padding: 20px; text-align: center; }
+
+#footer p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+#footer a {
+  color: #FFFFFF;
+}
+
+#footer a:hover {
+  color: #FFFFFF;
+}
+
+ 媒体查询 
+   @media (max-width: 768px) {
+   导航栏样式 
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+  }
+
+   主页部分样式 
+  #home {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #home h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  #home p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 5px;
+  }
+
+   特色部分样式 
+  #features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #features h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  #features .fa-4x {
+    margin-bottom: 10px;
+  }
+
+   下载部分样式 
+  #download {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #download h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  #download .card {
+    margin-bottom: 30px;
+  }
+
+  #download .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  #download .card-text {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+}
+/* 团队部分样式 */ #team { padding-top: 100px; padding-bottom: 100px; }
+
+#team h2 { font-size: 3.5rem; font-weight: 700; line-height: 1.5; text-shadow: 0 0 20px #fff; }
+
+#team .card { background-color: rgba(0,0,0,0.5); border: none; margin-bottom: 30px; }
+
+#team .card-img-top { height: 250px; object-fit: cover; }
+
+#team .card-body { text-align: center; padding: 20px; }
+
+#team .card-title { font-size: 2rem; font-weight: 700; line-height: 1.5; text-shadow: 0 0 20px #fff; margin-bottom: 10px; }
+
+#team .card-text { font-size: 1.5rem; font-weight: 300; line-height: 1.5; text-shadow: 0 0 20px #fff; }
+
+/* 联系我们部分样式 */ #contact { padding-top: 100px; padding-bottom: 100px; }
+
+#contact h2 { font-size: 3.5rem; font-weight: 700; line-height: 1.5; text-shadow: 0 0 20px #fff; }
+
+#contact .form-control { background-color: rgba(0,0,0,0.5); border: none; color: #fff; }
+
+#contact .form-control:focus { background-color: rgba(0,0,0,0.5); border: none; color: #fff; }
+
+#contact .btn-primary { background-color: #FFFFFF; color: #000; border-color: #FFFFFF; }
+
+#contact .btn-primary:hover { background-color: #000; color: #FFFFFF; border-color: #000; }
